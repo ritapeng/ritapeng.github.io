@@ -1,3 +1,21 @@
 <html>
-hello! I'm RitaPeng
+<link rel="stylesheet" type="text/css" href="index.css">
+hello! I'm RitaPeng</br>
+<img src="ama.jpg" width="25%" >
+<a href="intro.html">intro</a><br/>
+<span class="hi" >cool</span>
+<span id="clock">----</span>
+
+<script>
+setInterval(function(){
+    var datesstr =new Date();
+    datesstr=datesstr.toString();
+
+    document.getElementById("clock").innerHTML=datesstr.substr(16,8);
+    },1000);
+
+
+</script>
+
+
 </html>
