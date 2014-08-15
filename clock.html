@@ -1,0 +1,12 @@
+
+<span id="clock"></span>
+<script>
+setInterval(function(){
+    var datesstr =new Date();
+    datesstr=datesstr.toString();
+
+    document.getElementById("clock").innerHTML=datesstr.substr(16,8);
+    },1000);
+
+
+</script>
